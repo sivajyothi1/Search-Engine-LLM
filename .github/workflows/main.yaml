@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://SivaPeteti:$HF_TOKEN@huggingface.co/spaces/SivaPeteti/Search_Engine_LLM main
+        run: git push https://SivaPeteti:$HF_TOKEN@huggingface.co/spaces/SivaPeteti/Search_Engine_with_LLM_and_Agents main
